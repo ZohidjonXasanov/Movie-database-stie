@@ -1,12 +1,12 @@
-:root {
-  --white: white;
-  --blue: rgb(#031d33);
-}
-
+@import url(./sass/root.css);
 * {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
 }
 
 //header
@@ -14,7 +14,7 @@
 header {
   nav {
     height: 70px;
-    .navbar-brand{
+    .navbar-brand {
       margin-left: 30px;
     }
     ul {
@@ -68,6 +68,7 @@ header {
   }
 }
 //header
+
 //main
 main {
   .hero_section_1 {
@@ -90,7 +91,7 @@ main {
         height: 100%;
         width: 90%;
         text-align: start;
-        &:focus-visible{
+        &:focus-visible {
           outline: none;
         }
       }
@@ -112,9 +113,10 @@ main {
   }
 }
 //main
+
 //section
-section{
-  .hero_section_2{
+section {
+  .hero_section_2 {
     background-color: rgb(45 28 111 / 50%);
     width: auto;
     height: 50%;
@@ -124,17 +126,17 @@ section{
   object-fit: cover;
   background-size: cover;
   background-color: rgb(45 28 111 / 50%);
-  h1{
+  h1 {
     width: 400px;
     border-bottom: 1px solid var(--white);
   }
-  .hero_section_2_button{
+  .hero_section_2_button {
     width: 15%;
     height: 50px;
     margin-left: 30px;
     border-radius: 50px;
     border: 2px solid var(--white);
-    &:hover{
+    &:hover {
       border: 2px solid var(--white);
     }
   }
@@ -142,7 +144,7 @@ section{
 //section
 
 //movei_section
-.movei_section{
+.movei_section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 200px;
@@ -153,15 +155,48 @@ section{
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
-
-  .movei_teriding_button_top{
+  .movei_teriding_button_top {
     margin-top: 10px;
     display: flex;
     margin-left: 25px;
     width: 100;
     height: 30px;
+    padding-right: 5px;
     gap: 5px;
-    border: 1px solid rgb(#031d33);
+    border: 1px solid black;
+    border-radius: 50px;
+    .Today {
+      padding-left: 5px;
+      padding-right: 5px;
+      width: fit-content;
+      border-radius: 50px;
+      color: var(--white);
+      background-color: #031d33;
+      &:hover {
+        cursor: pointer;
+      }
+      a {
+        color: #2bd8ac;
+        font-size: 18px;
+      }
+    }
+    .This_Week {
+      padding-top: 2px;
+      a {
+        color: black;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
 //movei_section
+//Latest Trailers
+.Latest_Trailers{
+  width: 100%;
+  height: 350px;
+  overflow-x: scroll;
+  
+}
+//Latest Trailers
