@@ -102,7 +102,6 @@
       </nav>
     </header>
     <!-- header -->
-
     <!-- main -->
     <main>
       <div class="hero_section_1 container-fluid">
@@ -122,7 +121,6 @@
       </div>
     </main>
     <!-- main -->
-
     <!--section-->
     <section>
       <div class="hero_section_2 container-fluid">
@@ -141,33 +139,102 @@
       </div>
     </section>
     <!--section-->
-
     <!--movie treding-->
     <div class="movei_section">
-      <div class="movei_treding_text d-flex">
+      <div class="movei_treding_text d-flex" style="left: 0px; position: sticky;">
         <h2>Trending</h2>
         <div class="movei_teriding_button_top">
-          <div class="Today">
-            <a href="#">Today</a>
+          <div class="Today" onclick="today()">
+            <a>Today</a>
           </div>
-          <div class="This_Week">
-            <a href="#">This Week</a>
+          <div class="This_Week" onclick="week()">
+            <a>This Week</a>
           </div>
         </div>
       </div>
       <div class="cards">
-        
       </div>
     </div>
     <!--movie treding-->
-    
     <!--Latest Trailers-->
-    <div class="Latest_Trailers">
-      <div class="column_wrapper">
-        
+    <div class="latest_trailers">
+      <div class="logo d-flex container-fluid" style="left: 0px; position:sticky;">
+        <h2 class="me-5">Latest Trailers</h2>
+        <div class="on_tv_button d-flex">
+          <div class="on_tv me-4" onclick="on_tv()">
+            <a class="fs-5 text-dark">On TV</a>
+          </div>
+          <div class="in_theaters" onclick="in_tv()">
+            <a class="fs-5 text-light">In Theaters</a>
+          </div>
+        </div>
+      </div>
+      <div class="latest_movie">
+        <div class="d-flex">
+          <div class="movie_1 me-5">
+            <img src="./img/lastest_img/1.jpg" style="object-fit: cover; border-radius: 15px;" alt="">
+            <h3 class="text-center">Bizning oxirgimiz</h3>
+            <h5 class="text-center">pisode 5 Preview</h5>
+          </div>
+          <div class="movie_2">
+            <img src="./img/lastest_img/ymkFaEO0UdYXKIgcWZ23TlYIRD9.jpg" style="object-fit: cover; border-radius: 15px;" alt="">
+            <h3 class="text-center pt-1">इमली</h3>
+            <h5 class="text-center">Imlie | Bidaai Promo</h5>
+          </div>
+        </div>
       </div>
     </div>
     <!--Latest Trailers-->
+    <!--Popular-->
+    <div class="popular_cards">
+      <div class="popular_text d-flex container-fluid" style="left: 0px; position: sticky;">
+        <h2 class="me-4">What's Popular</h2>
+        <div class="popular_button_top d-flex">
+          <div class="popular_on_tv" onclick="popular_on_tv()">
+            <a>On TV</a>
+          </div>
+          <div class="popular_in" onclick="popular_In()">
+            <a>In Theaters</a>
+          </div>
+        </div>
+      </div>
+      <div class="popular_card">
+      </div>
+    </div>
+    <!--Popular-->
+    <!--Leaderboard-->
+    <div class="Leaderboard">
+      <div class="leaderboard_header container-fluid d-flex">
+        <h3 class="me-5 mt-2">Leaderboard</h3>
+        <div class="d-block">
+          <div class="d-flex">
+            <div class="me-2 mt-2" style="width: 10px; height: 10px; border-radius: 50px; background-color: aqua;"></div>
+            <p>All Time Edits</p>
+          </div>
+          <div class="d-flex">
+            <div class="me-2 mt-2" style="width: 10px; height: 10px; border-radius: 50px; background-color: pink;"></div>
+            <p>Edits This Week</p>
+          </div>
+        </div>
+      </div>
+      <div class="prosent d-flex">
+        <div class="prosent_1">
+          <div class="d-flex">
+            <div class="text-center" style="width: 50px; height: 50px; border-radius:50px; background-color:red;">
+              <p class="mt-2 text-light">R</p> 
+            </div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="prosent_2">
+  
+        </div>
+      </div>
+    </div>
+    <!--Leaderboard-->
     <script src="./app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
