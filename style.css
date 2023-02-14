@@ -392,7 +392,164 @@ section .hero_section_2_button:hover {
   width: 50%;
   height: 80%;
 }
+.Leaderboard .prosent .prosent_1 .green_prosent_1 {
+  width: 50px;
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .red_prosent_1 {
+  width: 400px;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(to right, #fdc070, #d93d63);
+}
+.Leaderboard .prosent .prosent_1 .green_prosent_2 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 120px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .red_prosent_2 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 250px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .green_prosent_3 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 150px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .red_prosent_3 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 100px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .green_prosent_4 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 40px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .red_prosent_4 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 85px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .green_prosent_5 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 180px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_1 .red_prosent_5 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 70px;
+  height: 8px;
+  border-radius: 50px;
+}
 .Leaderboard .prosent .prosent_2 {
   width: 50%;
   height: 80%;
+}
+.Leaderboard .prosent .prosent_2 .green_prosent_6 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 380px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .red_prosent_6 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 500px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .green_prosent_7 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 80px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .red_prosent_7 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 200px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .green_prosent_8 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 50px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .red_prosent_8 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 180px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .green_prosent_9 {
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  width: 520px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .red_prosent_9 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 150px;
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .green_prosent_10 {
+  width: 50px;
+  background: linear-gradient(to right, #b7fbcd, #23d6aa);
+  height: 8px;
+  border-radius: 50px;
+}
+.Leaderboard .prosent .prosent_2 .red_prosent_10 {
+  background: linear-gradient(to right, #fdc070, #d93d63);
+  width: 130px;
+  height: 8px;
+  border-radius: 50px;
+}
+
+footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+  background-color: #031f37;
+  padding: 50px;
+}
+footer .footer_button {
+  margin-left: -140px;
+  color: #01b4e4;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+}
+footer .footer_button:hover {
+  background-color: white;
+  color: #01b4e4;
+}
+footer .footer_link {
+  gap: 50px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+footer .footer_link .footer_link_1 a {
+  color: white;
+}
+footer .footer_link .footer_link_2 a {
+  color: white;
+}
+footer .footer_link .footer_link_3 a {
+  color: white;
+}
+footer .footer_link .footer_link_4 a {
+  color: white;
 }
