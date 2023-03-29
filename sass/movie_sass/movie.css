@@ -82,58 +82,164 @@ header nav ul .dropdown:hover .dropbtn {
   background-color: var(--blue);
 }
 
-.header_section {
-  width: 100%;
-  background-color: white;
-  height: 50px;
-}
-.header_section .dropbtn {
-  background-color: #04aa6d;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-.header_section .dropdown {
-  position: relative;
-  display: inline-block;
-}
-.header_section .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  margin-top: -5px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 5px;
-}
-.header_section .dropdown-content a {
-  color: black;
-  padding: 5px;
-  text-decoration: none;
-  display: block;
-  border-radius: 5px;
-}
-.header_section .dropbtn {
-  background-color: var(--blue);
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-.header_section .dropdown-content a:hover {
-  background-color: #ddd;
-}
-.header_section .dropdown:hover .dropdown-content {
-  display: block;
-}
-.header_section .dropdown:hover .dropbtn {
-  background-color: var(--blue);
-}
-
 main {
   width: 100%;
   height: 500px;
-  background-color: black;
+  padding: 40px;
+}
+main .popular_left_button #h4_item {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+main .popular_left_button #button_on {
+  background-color: #fff;
+  color: black;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 240px;
+  font-weight: 600;
+  text-align: start;
+  font-size: 1.1em;
+  box-shadow: 3px 3px 4px 4px #d0c8c8;
+}
+main .popular_left_button #on_button {
+  background-color: #fff;
+  color: black;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 240px;
+  font-weight: 600;
+  text-align: start;
+  font-size: 1.1em;
+  box-shadow: 3px 3px 4px 4px #d0c8c8;
+  margin-top: 20px;
+}
+main .popular_left_button #p_button {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: gray;
+  font-weight: 100;
+  font-size: 15px;
+}
+main .popular_left_button #radio_inp {
+  margin-left: 15px;
+  display: inline-block;
+}
+main .popular_left_button #second_p {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+main .popular_left_button #third_p {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+main .popular_left_button #radio_input {
+  margin-left: 15px;
+  display: inline-block;
+}
+main .popular_left_button .dropdown-menu {
+  width: 255px;
+}
+main .popular_left_button #radio_inpot {
+  margin-left: 15px;
+  display: inline-block;
+}
+main .popular_left_button #fourth_p {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+main .popular_left_button .search_p {
+  display: inline-block;
+}
+main .popular_left_button #prosmotr_p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: gray;
+  font-weight: 100;
+  font-size: 15px;
+}
+main .popular_left_button .checkbox {
+  margin-left: 25px;
+}
+main .popular_left_button .date_p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: gray;
+  font-weight: 100;
+  font-size: 15px;
+}
+main .popular_left_button #to {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: gray;
+  font-weight: 100;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 70px;
+}
+main .popular_left_button #date_inp {
+  border: 1px solid rgb(174, 168, 168);
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-bottom: 10px;
+}
+main .popular_left_button #do {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: gray;
+  font-weight: 100;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 70px;
+}
+main .popular_left_button #date_input {
+  border: 1px solid rgb(174, 168, 168);
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+main .popular_left_button #button_on {
+  margin-top: 20px;
+}
+main .popular_left_button #search_p {
+  margin-bottom: 0px;
+  color: gray;
+}
+main .popular_left_button #servise_p {
+  margin-left: 20px;
+  color: gray;
+}
+main .popular_left_button #checkbox {
+  margin-left: 15px;
+}
+main .popular_left_button #cards__wrapper {
+  display: grid;
+  width: auto;
+  height: auto;
+  position: relative;
+  bottom: 115px;
+  margin-left: 19vw;
+  bottom: 170px;
+  gap: 30px 30px;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+main .popular_left_button .dropt__button {
+  width: 17vw;
+  height: 55px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(147, 147, 147, 0.2), 0 6px 20px 0 rgba(147, 147, 147, 0.19);
 }

@@ -102,72 +102,119 @@
       </nav>
     </header>
     <!-- header -->
-    <!--header_section-->
-    <section class="header_section">
-      <div class="d-flex" style="justify-content: center">
-        <div class="dropdown">
-          <button class="dropbtn">
-            Overview <i class="fa-solid fa-sort-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Main</a>
-            <a href="#">Alternative titles</a>
-            <a href="#">Taglines</a>
-            <a href="#">Cast & Crew</a>
-            <a href="#">Release Dates</a>
-            <a href="#">Translations</a>
-            <div class="pt-3">
-              <a href="#">Changes</a>
-              <a href="#">Report</a>
-              <a href="#">Edit</a>
+    <!--main-->
+    <main>
+      <div class="popular_left_button">
+        <div class="title">
+          <h4 id="h4_item">Popular Movies</h4>
+        </div>
+        <div class="content">
+          <div class="first_button">
+            <div class="dropdown-center">
+              <button
+                id="button_on"
+                class="btn btn-secondary"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sort
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Популярности <br />
+                    (По рейтингу)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Рейтингу <br />
+                    (убывание)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Рейтингу <br />
+                    (возрастание)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Дате выпуска (убывание)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Дате выпуска (возрастание)</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Названию (А-Я)</a></li>
+                <li><a class="dropdown-item" href="#">Названию (Я-А)</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="second_button">
+            <div class="dropdown-center">
+              <button
+                id="on_button"
+                class="btn btn-secondary"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Фильтры
+              </button>
+              <ul class="dropdown-menu">
+                <p id="p_button">Показать мне</p>
+                <input id="radio_input" type="radio" />
+                <p id="second_p">Всe</p>
+                <br />
+                <input id="radio_inp" type="radio" />
+                <p id="fourth_p">Фильмы, которые я не видел</p>
+                <br />
+                <input id="radio_inpot" type="radio" />
+                <p id="third_p">Просмотренные фильмы</p>
+                <br />
+                <br />
+                <p class="prosmotr_p">Возможность просмотра</p>
+                <input type="checkbox" id="checkbox" />
+                <p class="search_p">Искать все возможности просмотра?</p>
+                <br />
+                <p class="date_p">Даты выхода</p>
+                <input type="checkbox" id="checkbox" />
+                <p class="search_p">Искать все релизы?</p>
+                <br />
+                <p id="to">от</p>
+                <input id="date_inp" type="date" />
+                <br />
+                <p id="do">до</p>
+                <input id="date_input" type="date" />
+              </ul>
+            </div>
+          </div>
+          <div class="third_button">
+            <div class="dropdown-center">
+              <button
+                id="button_on"
+                class="btn btn-secondary"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Сортировать
+              </button>
+              <ul class="dropdown-menu">
+                <p class="date_p">Мои сервисы</p>
+                <input type="checkbox" id="checkbox" />
+                <p id="search_p" class="search_p">Ограничить поиск</p>
+                <p id="servise_p">указанными сервисами?</p>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Media <i class="fa-solid fa-sort-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Backdrops 19</a>
-            <a href="#">Logos 5</a>
-            <a href="#">Posters 70</a>
-            <a href="#">Videos <i class="fa-solid fa-caret-right"></i></a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Fandom <i class="fa-solid fa-sort-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Discussions <i class="fa-solid fa-caret-right"></i></a>
-            <a href="#">Reviews</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Share <i class="fa-solid fa-sort-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Share Link</a>
-            <a href="#">Facebook</a>
-            <a href="#">Tweet</a>
-          </div>
-        </div>
       </div>
-    </section>
-    <!--header_section-->
+    </main>
     <!--main-->
-    <main></main>
-    <!--main-->
-    <!--person_box-->
-    
-    <!--person_box-->
     <script src="../js/movei.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

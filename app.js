@@ -31,7 +31,7 @@ function ipData(data) {
       <i class="fa-solid fa-ellipsis"></i>
     </div>
     <div class="prosent">
-      <div class="pro_number"></div>
+      <div class="pro_number">${Math.floor(vote_average * 10)}*</div>
     </div>
     <div class="movie_title">
       <h4 class="card_title">${title ?? name}</h4>
@@ -54,7 +54,7 @@ function tredingData(url) {
 }
 function week() {
   var this_week = document.getElementById("this_week");
-  var a_week = document.getElementById("a_week");2
+  var a_week = document.getElementById("a_week");
 
   var today = document.getElementById("today");
   var today_a = document.getElementById("today_a");
@@ -64,12 +64,11 @@ function week() {
 
   today.style.backgroundColor = "white"
   today_a.style.color = "black"
-  cards.innerHTML = "";
-  ipData(treding_week)
-}
-var this_week = document.getElementById("this_week");
-this_week.addEventListener
-tredingData()
+  var this_week = document.getElementById("this_week");
+  this_week.addEventListener('click', () => {
+  console.log(true);
+  ipData()}
+  
 function Today() {
   var today = document.getElementById("today");
   var today_a = document.getElementById("today_a");

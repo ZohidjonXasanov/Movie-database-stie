@@ -232,6 +232,25 @@ section .hero_section_2_button:hover {
   height: 180px;
   border-radius: 15px;
 }
+.movei_section .cards .prosent {
+  margin-top: -45px;
+  padding: 8px;
+  padding-left: 15px;
+  width: 50px;
+  height: 500px;
+  border-radius: 50px;
+  color: white;
+  background-color: #081c22;
+}
+.movei_section .cards .prosent .pro_number {
+  transform: translate(-8px);
+  text-align: center;
+  padding-top: 3px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: 2px solid aqua;
+}
 .movei_section .cards .card {
   border: none;
 }
@@ -261,6 +280,8 @@ section .hero_section_2_button:hover {
 }
 .movei_section .cards i:hover {
   cursor: pointer;
+  background-color: aqua;
+  color: white;
 }
 
 .latest_trailers {
@@ -344,50 +365,6 @@ section .hero_section_2_button:hover {
 }
 .popular_cards ::-webkit-scrollbar-thumb {
   border-radius: 50px;
-}
-.popular_cards .popular_text {
-  margin-top: 30px;
-}
-.popular_cards .popular_button_top {
-  margin-top: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 30px;
-  padding: 1px 0px;
-  gap: 15px;
-  border: 1px solid black;
-  border-radius: 50px;
-}
-.popular_cards .popular_button_top .popular_on_tv {
-  padding-left: 15px;
-  margin-top: -2px;
-  padding-right: 15px;
-  height: 30px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border-radius: 50px;
-  color: var(--white);
-  background-color: #031d33;
-  text-align: center;
-  align-items: center;
-}
-.popular_cards .popular_button_top .popular_on_tv:hover {
-  cursor: pointer;
-}
-.popular_cards .popular_button_top .popular_on_tv a {
-  color: #2bd8ac;
-  font-size: 18px;
-}
-.popular_cards .popular_button_top .popular_in {
-  padding-right: 5px;
-}
-.popular_cards .popular_button_top .popular_in a {
-  color: black;
-}
-.popular_cards .popular_button_top .popular_in:hover {
-  cursor: pointer;
 }
 .popular_cards .card {
   border: none;
